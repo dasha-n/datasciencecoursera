@@ -1,0 +1,17 @@
+---
+title: "HelloWorld"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file
+
+The classic Hello world code:
+
+```{r hello}
+print("hello world")
+```
+
